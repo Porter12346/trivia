@@ -1,10 +1,11 @@
+import { QuestionsController } from "./controllers/QuestionsController.js";
 import { Router } from "./utils/Router.js";
 
 
 export const router = new Router([
   {
     path: '',
-    controllers: [],
+    controllers: [QuestionsController],
     view: ''
   }
 ])
